@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1AFCB0A020DB356900531E06 /* ZGY */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZGY; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFCB0A020DB356900531E06 /* ZGY 6.21 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ZGY 6.21"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFCB0A320DB356900531E06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		1AFCB0A120DB356900531E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AFCB0A020DB356900531E06 /* ZGY */,
+				1AFCB0A020DB356900531E06 /* ZGY 6.21 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1AFCB09F20DB356900531E06 /* ZGY */ = {
+		1AFCB09F20DB356900531E06 /* ZGY 6.21 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AFCB0A720DB356900531E06 /* Build configuration list for PBXNativeTarget "ZGY" */;
+			buildConfigurationList = 1AFCB0A720DB356900531E06 /* Build configuration list for PBXNativeTarget "ZGY 6.21" */;
 			buildPhases = (
 				1AFCB09C20DB356900531E06 /* Sources */,
 				1AFCB09D20DB356900531E06 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = ZGY;
+			name = "ZGY 6.21";
 			productName = ZGY;
-			productReference = 1AFCB0A020DB356900531E06 /* ZGY */;
+			productReference = 1AFCB0A020DB356900531E06 /* ZGY 6.21 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1AFCB09B20DB356900531E06 /* Build configuration list for PBXProject "ZGY" */;
+			buildConfigurationList = 1AFCB09B20DB356900531E06 /* Build configuration list for PBXProject "ZGY 6.21" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AFCB09F20DB356900531E06 /* ZGY */,
+				1AFCB09F20DB356900531E06 /* ZGY 6.21 */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AFCB09B20DB356900531E06 /* Build configuration list for PBXProject "ZGY" */ = {
+		1AFCB09B20DB356900531E06 /* Build configuration list for PBXProject "ZGY 6.21" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AFCB0A520DB356900531E06 /* Debug */,
@@ -239,7 +239,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AFCB0A720DB356900531E06 /* Build configuration list for PBXNativeTarget "ZGY" */ = {
+		1AFCB0A720DB356900531E06 /* Build configuration list for PBXNativeTarget "ZGY 6.21" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AFCB0A820DB356900531E06 /* Debug */,
