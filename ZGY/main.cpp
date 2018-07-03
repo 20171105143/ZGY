@@ -1,29 +1,26 @@
-#include <fstream>
-#include <string>
+#include <string.h>
 #include <iostream>
-#include <streambuf>
 using namespace std;
 
-int main()
-{
-    //定义文件输出流
-    ofstream oFile;
+typedef struct student {
+    char sno[50];
+    char name[50];
+    char gender[50];
+    char birthday[50];
+    char grade[50];
+    char mobile[50];
     
-    //打开要输出的文件
-    oFile.open("scoresheet.csv", ios::out | ios::trunc);    // 这样就很容易的输出一个需要的excel 文件
-    oFile << "姓名" << "," << "年龄" << "," << "班级" << "," << "班主任" << endl;
-    oFile << "张三" << "," << "22" << "," << "1" << "," << "JIM" << endl;
-    oFile << "李四" << "," << "23" << "," << "3" << "," << "TOM" << endl;
-    
-    oFile.close();
-    
-    
-    //打开要输出的文件
-    ifstream iFile("scoresheet.csv");
-    string   readStr((std::istreambuf_iterator<char>(iFile)),  std::istreambuf_iterator<char>());
-    cout <<  readStr.c_str();
-    
-    return 0;
-}  
+    double score[5];
+    double average;
+    struct student *next;
+} Student;
+
+Student *head = NULL;
+
+void printStudent(Student *s) {
+    printf("%-5s%-15s%-8s%-10s%-10s%-10s%-6.2lf%-6.2lf%-6.2lf%-6.2lf%-6.2lf\n",
+           s->sno, s->name, s->gender, s->birthday, s->grade, s->mobile,
+           s->score[0], s->score[1], s->score[2], s->score[3], s->score[4]);
+}
 
 
