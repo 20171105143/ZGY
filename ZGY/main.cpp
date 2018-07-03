@@ -22,5 +22,11 @@ void printStudent(Student *s) {
            s->sno, s->name, s->gender, s->birthday, s->grade, s->mobile,
            s->score[0], s->score[1], s->score[2], s->score[3], s->score[4]);
 }
+void printLinkList(Student *head) {
+    while (head != NULL) {
+        printStudent(head);
+        head = head->next;
+    }
+}
 
 
